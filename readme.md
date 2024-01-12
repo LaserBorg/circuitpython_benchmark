@@ -1,6 +1,15 @@
 # circuitpython benchmark
 
-Raspberry Pi Pico (RP2040) and Adafruit Metro M7 (NXP IMXRT10XX) benchmark
+Raspberry Pi Pico (RP2040), Adafruit Metro M7 (NXP IMXRT10XX) and Intel i7 CPU benchmark.
+
+## abstract
+Script for Python and CircuitPython measures computation time, covering:
+- int and float datatypes
+- vectorized vs. looped operations 
+- arithmetic, algebraic and trigonometric operations.
+
+
+## results
 
 |<br> datatype|<br>operation| **Raspberry Pi Pico**<br>t (s)|  |**Adafruit Metro M7**<br>t (s)| <br>vs. Pico|  | **Intel i7-6700HQ Laptop** <br>t (s)| <br> vs. Pico |
 |----------------:|------------:|------------:|---------:|----------------------:|---------:|-----:|---------------------:|---------:|
